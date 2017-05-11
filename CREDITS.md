@@ -1,6 +1,6 @@
 # Credits
-Designed and built by [Yannick Serge Obam](https://github.com/obeshor)
-
+Built by [Yannick Serge Obam](https://github.com/obeshor)
+Designed by [Ronak-LM](https://github.com/Ronak-LM)
 ## Sources
 
 ##### TMDb - The Movie Database (https://www.themoviedb.org)

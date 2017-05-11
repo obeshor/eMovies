@@ -1,10 +1,5 @@
 # Credits
-Designed and built by [Ronak Manglani](https://github.com/Ronak-LM)
-
-
-## Translations
-Italian Translations by [Raffaele Mignone](https://github.com/OrangeDugongo)
-
+Designed and built by [Yannick Serge Obam](https://github.com/obeshor)
 
 ## Sources
 

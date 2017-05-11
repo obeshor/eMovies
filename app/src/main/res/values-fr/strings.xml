@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- List For Navigation Drawer -->
+    <string name="drawer_popular">Plus populaire</string>
+    <string name="drawer_rated">Mieux Notés</string>
+    <string name="drawer_upcoming">A Suivre</string>
+    <string name="drawer_playing">Dans les theatres</string>
+    <string name="drawer_watched">Regardés</string>
+    <string name="drawer_to_see">A Regader</string>
+
+    <!-- Toolbar actions -->
+    <string name="action_grid">Grid View</string>
+    <string name="action_list">List View</string>
+    <string name="action_compact">Compact View</string>
+    <string name="action_search">Recherche</string>
+    <string name="action_share">Partager</string>
+    <string name="action_share_text">Retirer %1$s - %2$s</string>
+    <string name="action_share_using">Partager en utilisant&#8230;</string>
+    <string name="action_backup">Backup/Restauration</string>
+    <string name="action_rate">Noter sur Google Play</string>
+    <string name="action_twitter">Suivre sur Twitter</string>
+    <string name="action_email">Envoyer un Feedback</string>
+    <string name="action_about">A propos</string>
+    <string name="action_email_using">Envoyez un email&#8230;</string>
+    <string name="action_email_error">Pas d\'application email!</string>
+
+    <!-- Loading and Error Message -->
+    <string name="server_unreachable">Oops! Quelque difficultés.\nVeuillez vérifier votre connection internet.</string>
+    <string name="try_again">Essayer a nouveau?</string>
+    <string name="loading">Chargement&#8230;</string>
+    <string name="saved_empty">vous n\'avez pas ajouté des films\n sur cette liste</string>
+
+    <!-- Search Activity -->
+    <string name="search_hint">Rechercher tous les films&#8230;</string>
+    <string name="search_no_results">Aucun resultat disponible</string>
+
+    <!-- Movie Detail Activity -->
+    <string name="detail_header_overview">VUE D\'ENSEMBLE</string>
+    <string name="detail_button_photos">PHOTOS</string>
+    <string name="detail_button_videos">VIDEOS</string>
+    <string name="detail_button_reviews">AVIS</string>
+    <string name="detail_header_crew">EQUIPE</string>
+    <string name="detail_header_cast">CASTING</string>
+    <string name="detail_button_see_all">VOIR TOUT</string>
+    <string name="detail_vote_count">%1$s votes</string>
+    <string name="detail_crew_format">%1$s : %2$s</string>
+    <string name="detail_fab_watched_add">Marquer comme vue </string>
+    <string name="detail_fab_watched_remove">Retirer de vue</string>
+    <string name="detail_fab_to_watch_add">A regarder</string>
+    <string name="detail_fab_to_watch_remove">Retirer comme \"A regarder\"</string>
+    <string name="detail_watched_added">Film vu</string>
+    <string name="detail_watched_removed">Film retire comme vu</string>
+    <string name="detail_to_watch_added">Film  marque comme \"A regarder\"</string>
+    <string name="detail_to_watch_removed">Film retire comme \"A Regarder\"</string>
+
+    <!-- Reviews Activity -->
+    <string name="reviews_title">Avis</string>
+    <string name="reviews_alert">ALERTE SPOIL!</string>
+    <string name="reviews_no_results">Nous n\'avons pas d\'avis pour ce film!</string>
+
+    <!-- Videos Activity -->
+    <string name="videos_title">Videos</string>
+    <string name="videos_youtube">YouTube</string>
+    <string name="videos_no_results">Nous n\'avons pas des videos pour ce film!</string>
+
+    <!-- Photos Activity -->
+    <string name="photos_title">Photos</string>
+    <string name="photos_no_results">Nous n\'avons pas de photos de ce film!!</string>
+
+    <!-- Credit Activity -->
+    <string name="crew_title">Equipe</string>
+    <string name="cast_title">Casting</string>
+
+    <!-- Backup Activity -->
+    <string name="pref_title">Backup et Restauration</string>
+    <string name="pref_category_data">Données de l\'appli</string>
+    <string name="pref_title_backup">Backup des Donnees</string>
+    <string name="pref_title_restore">Restaurer les données</string>
+    <string name="pref_summary_backup">Exporter les données sur le disque</string>
+    <string name="pref_summary_restore">Importer les données vers le disque</string>
+    <string name="backup_select">Choisir une  location&#8230;</string>
+    <string name="backup_complete">Backup réussi</string>
+    <string name="backup_failed">Erreur! enregistrement impossible</string>
+    <string name="restore_select">Choisir le fichier Backup&#8230;</string>
+    <string name="restore_complete">Restauration réussie</string>
+    <string name="restore_failed">Erreur! Restauration impossible</string>
+    <string name="restore_invalid">le fichier est invalide</string>
+
+    <!-- About Dialog -->
+    <string name="about_version">Version 1.1</string>
+    <string name="about_made_by">Concus par</string>
+
+    <string name="about_powered_by">A partir de </string>
+
+
+
+
+
+</resources>

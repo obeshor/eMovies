@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General Margin/Padding -->
+    <dimen name="dist_xlarge">32dp</dimen>
+    <dimen name="dist_large">16dp</dimen>
+    <dimen name="dist_medium">8dp</dimen>
+    <dimen name="dist_small">4dp</dimen>
+    <dimen name="dist_xsmall">2dp</dimen>
+    <dimen name="dist_xxsmall">1dp</dimen>
+
+    <!-- General Text Sizes -->
+    <dimen name="text_xxlarge">20sp</dimen>
+    <dimen name="text_xlarge">18sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+
+    <!-- App Drawer -->
+    <dimen name="drawer_header_height">165dp</dimen>
+    <dimen name="drawer_icon_size">56dp</dimen>
+
+    <!-- Loading Circle -->
+    <dimen name="progress_circle_width">80dp</dimen>
+    <dimen name="progress_circle_height">80dp</dimen>
+    <dimen name="progress_circle_stroke">4dp</dimen>
+    <dimen name="progress_circle_small_width">40dp</dimen>
+    <dimen name="progress_circle_small_height">40dp</dimen>
+    <dimen name="progress_circle_small_stroke">3dp</dimen>
+
+    <!-- Error Message -->
+    <dimen name="error_icon_width">120dp</dimen>
+    <dimen name="error_icon_height">120dp</dimen>
+    <dimen name="error_message_marginTop">15dp</dimen>
+    <dimen name="error_try_again_padding">8dp</dimen>
+
+    <!-- RecyclerView Dimensions -->
+    <dimen name="recycler_item_padding">2dp</dimen>
+    <dimen name="recycler_view_padding">6dp</dimen>
+
+    <!-- Movie Grid Item -->
+    <dimen name="movie_card_width">180dp</dimen>
+    <dimen name="movie_card_height">200dp</dimen>
+    <dimen name="movie_image_height">135dp</dimen>
+    <dimen name="movie_info_height">65dp</dimen>
+    <dimen name="movie_info_padding">5dp</dimen>
+    <dimen name="movie_rating_icon_size">16dp</dimen>
+
+    <!-- Movie List Item -->
+    <dimen name="movie_list_card_height">200dp</dimen>
+    <dimen name="movie_list_card_width">400dp</dimen>
+    <dimen name="movie_list_poster_width">120dp</dimen>
+
+    <!-- Movie Compact Item -->
+    <dimen name="movie_compact_image_size">80dp</dimen>
+    <dimen name="movie_compact_rating_icon_size">14dp</dimen>
+    <dimen name="movie_compact_text_margin">12dp</dimen>
+    <dimen name="movie_compact_rating_margin">6dp</dimen>
+
+    <!-- Detail Activity -->
+    <dimen name="detail_backdrop_width">444dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+    <dimen name="detail_play_button_size">50dp</dimen>
+    <dimen name="detail_poster_width">100dp</dimen>
+    <dimen name="detail_poster_height">150dp</dimen>
+    <dimen name="detail_button_height">65dp</dimen>
+    <dimen name="detail_button_icon_size">22dp</dimen>
+    <dimen name="detail_icon_size">16dp</dimen>
+    <dimen name="detail_see_all_height">40dp</dimen>
+    <dimen name="detail_arrow_size">12dp</dimen>
+    <dimen name="detail_cast_image_height">60dp</dimen>
+    <dimen name="detail_cast_image_width">40dp</dimen>
+
+    <!-- Review Item -->
+    <dimen name="review_user_icon_size">26dp</dimen>
+    <dimen name="review_open_icon_size">24dp</dimen>
+
+    <!-- Photo Item -->
+    <dimen name="photo_item_width">180dp</dimen>
+    <dimen name="photo_item_height">120dp</dimen>
+
+    <!-- Video Item -->
+    <dimen name="video_item_width">380dp</dimen>
+    <dimen name="video_item_height">235dp</dimen>
+
+    <!-- Credit Item -->
+    <dimen name="credit_item_padding">12dp</dimen>
+    <dimen name="credit_image_size">55dp</dimen>
+
+    <!-- About Page -->
+    <dimen name="about_icon_size">120dp</dimen>
+    <dimen name="tmdb_icon_width">135dp</dimen>
+    <dimen name="tmdb_icon_height">25dp</dimen>
+
+</resources>

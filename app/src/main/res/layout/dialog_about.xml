@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dist_large"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.gdgebolowa.watchlist.widget.RobotoBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/text_xxlarge"/>
+
+        <com.gdgebolowa.watchlist.widget.RobotoLightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_version"
+            android:textSize="@dimen/text_large"/>
+
+        <ImageView android:src="@drawable/app_icons"
+            android:layout_width="@dimen/about_icon_size"
+            android:layout_height="@dimen/about_icon_size"
+            android:layout_margin="@dimen/dist_medium"
+            tools:ignore="ContentDescription" />
+
+        <com.gdgebolowa.watchlist.widget.RobotoLightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_made_by"
+            android:textSize="@dimen/text_large"/>
+
+        <com.gdgebolowa.watchlist.widget.RobotoBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_name"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/text_large"/>
+
+        <com.gdgebolowa.watchlist.widget.RobotoLightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dist_large"
+            android:text="@string/about_powered_by"
+            android:textSize="@dimen/text_large"/>
+
+        <ImageView android:id="@+id/tmdb_link"
+            android:layout_width="@dimen/tmdb_icon_width"
+            android:layout_height="@dimen/tmdb_icon_height"
+            android:layout_marginTop="@dimen/dist_xsmall"
+            android:clickable="true"
+            android:background="?attr/selectableItemBackground"
+            android:src="@drawable/tmdb"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+</ScrollView>

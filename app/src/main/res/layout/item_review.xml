@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dist_medium"
+    android:background="@color/text_secondary">
+
+    <RelativeLayout android:id="@+id/review_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/dist_large"
+        android:paddingLeft="@dimen/dist_large"
+        android:paddingRight="@dimen/dist_large"
+        android:paddingBottom="@dimen/dist_medium"
+        android:orientation="vertical"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true">
+
+        <!-- Icon and Username -->
+        <LinearLayout android:id="@+id/review_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/review_open"
+            android:layout_toStartOf="@+id/review_open"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView style="@style/ReviewIconStyle"
+                android:src="@drawable/icon_user"
+                tools:ignore="ContentDescription" />
+            <com.gdgebolowa.watchlist.widget.RobotoBoldTextView
+                android:id="@+id/review_author"
+                style="@style/ReviewAuthorStyle"
+                tools:text="User Name"/>
+        </LinearLayout>
+
+        <!-- Review open icon -->
+        <ImageView android:id="@+id/review_open"
+            android:layout_width="@dimen/review_open_icon_size"
+            android:layout_height="@dimen/review_open_icon_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:padding="@dimen/dist_xsmall"
+            android:src="@drawable/icon_open"
+            tools:ignore="contentDescription"/>
+
+        <!-- Review Body -->
+        <FrameLayout android:id="@+id/review_body_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/review_header">
+
+            <com.gdgebolowa.watchlist.widget.RobotoLightTextView
+                android:id="@+id/review_body"
+                style="@style/ReviewBodyStyle"
+                tools:text="The movie's review goes here..."/>
+
+            <com.gdgebolowa.watchlist.widget.RobotoBoldTextView
+                android:id="@+id/review_spoiler"
+                style="@style/ReviewBodyStyle"
+                android:text="@string/reviews_alert"
+                android:textColor="@color/primary"
+                android:visibility="gone"/>
+
+        </FrameLayout>
+
+        <com.gdgebolowa.watchlist.widget.RobotoRegularTextView
+            android:id="@+id/review_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/review_body_holder"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/dist_small"
+            android:textSize="@dimen/text_small"
+            tools:text="01 Jan 2016"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

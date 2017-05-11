@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout android:id="@+id/credit_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dist_large"
+        android:paddingRight="@dimen/dist_large"
+        android:paddingTop="@dimen/credit_item_padding"
+        android:paddingBottom="@dimen/credit_item_padding"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/credit_image"
+            android:layout_height="@dimen/credit_image_size"
+            android:layout_width="@dimen/credit_image_size"
+            android:background="@drawable/default_circle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dist_large"
+            android:layout_marginStart="@dimen/dist_large"
+            android:orientation="vertical">
+
+            <com.gdgebolowa.watchlist.widget.RobotoBoldTextView
+                android:id="@+id/credit_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_small"
+                android:textColor="@color/text_primary"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Bruce Wayne"/>
+
+            <com.gdgebolowa.watchlist.widget.RobotoLightTextView
+                android:id="@+id/credit_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_large"
+                android:textColor="@color/text_primary"
+                android:maxLines="1"
+                android:ellipsize="end"
+                tools:text="Batman"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@color/default_image_background"/>
+
+</FrameLayout>

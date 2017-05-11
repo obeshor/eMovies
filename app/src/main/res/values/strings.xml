@@ -1,0 +1,105 @@
+<resources>
+    <!-- App Title -->
+    <string name="app_name" translatable="false">eMovies</string>
+
+    <!-- List For Navigation Drawer -->
+    <string name="drawer_popular">Most Popular</string>
+    <string name="drawer_rated">Top Rated</string>
+    <string name="drawer_upcoming">Upcoming</string>
+    <string name="drawer_playing">In Theaters</string>
+    <string name="drawer_watched">Watched</string>
+    <string name="drawer_to_see">To Watch</string>
+
+    <!-- Toolbar actions -->
+    <string name="action_grid">Grid View</string>
+    <string name="action_list">List View</string>
+    <string name="action_compact">Compact View</string>
+    <string name="action_search">Search</string>
+    <string name="action_share">Share</string>
+    <string name="action_share_text">Check out %1$s - %2$s</string>
+    <string name="action_share_using">Share using&#8230;</string>
+    <string name="action_backup">Backup/Restore Data</string>
+    <string name="action_rate">Rate on Google Play</string>
+    <string name="action_twitter">Follow on Twitter</string>
+    <string name="action_email">Send Feedback</string>
+    <string name="action_about">About</string>
+    <string name="action_email_using">Send email&#8230;</string>
+    <string name="action_email_error">There are no email clients installed!</string>
+
+    <!-- Loading and Error Message -->
+    <string name="server_unreachable">Oops! Something went wrong.\nPlease check your internet connection.</string>
+    <string name="try_again">Try Again?</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="saved_empty">You haven\'t added any movies\nto this list</string>
+
+    <!-- Search Activity -->
+    <string name="search_hint">Search all movies&#8230;</string>
+    <string name="search_no_results">Your search did not match any results</string>
+
+    <!-- Movie Detail Activity -->
+    <string name="detail_header_overview">OVERVIEW</string>
+    <string name="detail_button_photos">PHOTOS</string>
+    <string name="detail_button_videos">VIDEOS</string>
+    <string name="detail_button_reviews">REVIEWS</string>
+    <string name="detail_header_crew">CREW</string>
+    <string name="detail_header_cast">CAST</string>
+    <string name="detail_button_see_all">SEE ALL</string>
+    <string name="detail_vote_count">%1$s votes</string>
+    <string name="detail_crew_format">%1$s : %2$s</string>
+    <string name="detail_fab_watched_add">Mark as Watched</string>
+    <string name="detail_fab_watched_remove">Remove from Watched</string>
+    <string name="detail_fab_to_watch_add">Want to Watch</string>
+    <string name="detail_fab_to_watch_remove">Remove from \"To Watch\"</string>
+    <string name="detail_watched_added">Movie marked as watched</string>
+    <string name="detail_watched_removed">Movie removed from watched</string>
+    <string name="detail_to_watch_added">Movie marked as \"To Watch\"</string>
+    <string name="detail_to_watch_removed">Movie removed from \"To Watch\"</string>
+
+    <!-- Reviews Activity -->
+    <string name="reviews_title">Reviews</string>
+    <string name="reviews_alert">SPOILER ALERT!</string>
+    <string name="reviews_no_results">We don\'t have any reviews for\nthis movie!</string>
+
+    <!-- Videos Activity -->
+    <string name="videos_title">Videos</string>
+    <string name="videos_youtube">YouTube</string>
+    <string name="videos_no_results">We don\'t have any videos for\nthis movie!</string>
+
+    <!-- Photos Activity -->
+    <string name="photos_title">Photos</string>
+    <string name="photos_no_results">We don\'t have any photos for\nthis movie!</string>
+
+    <!-- Credit Activity -->
+    <string name="crew_title">Crew</string>
+    <string name="cast_title">Cast</string>
+
+    <!-- Backup Activity -->
+    <string name="pref_title">Backup and Restore</string>
+    <string name="pref_category_data">App Data</string>
+    <string name="pref_key_backup" translatable="false">backup_data</string>
+    <string name="pref_key_restore" translatable="false">restore_data</string>
+    <string name="pref_title_backup">Backup Data</string>
+    <string name="pref_title_restore">Restore Data</string>
+    <string name="pref_summary_backup">Export data to storage</string>
+    <string name="pref_summary_restore">Import data from storage</string>
+    <string name="backup_select">Select location&#8230;</string>
+    <string name="backup_complete">Backup completed successfully</string>
+    <string name="backup_failed">Error! Unable to save backup</string>
+    <string name="restore_select">Select backup file&#8230;</string>
+    <string name="restore_complete">Restore completed successfully</string>
+    <string name="restore_failed">Error! Unable to restore backup</string>
+    <string name="restore_invalid">The file you selected is invalid</string>
+
+    <!-- About Dialog -->
+    <string name="about_version">Version 1.1</string>
+    <string name="about_made_by">Made By</string>
+    <string name="about_name" translatable="false">GDG Ebolowa</string>
+    <string name="about_powered_by">Powered By</string>
+    <string name="about_tmdb" translatable="false">http://themoviedb.org</string>
+
+    <!-- About key TMDB, Tracking Analytic -->
+    <string name="tmdb_api_key" translatable="false" >2066053a274f16cea0e5de39363f1024</string>
+    <string name="trakt_api_key" translatable="false">UA-80359587-1</string>
+
+
+</resources>

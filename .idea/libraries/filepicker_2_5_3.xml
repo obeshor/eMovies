@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="filepicker-2.5.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.5.3/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.nononsenseapps/filepicker/2.5.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.nononsenseapps/filepicker/2.5.3/ec781d982d3fab1c98a5c9fab5d178e168d3a747/filepicker-2.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

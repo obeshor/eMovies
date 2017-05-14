@@ -6,7 +6,7 @@ eMovies est une application android pour suivre et découvrir des films. Il vous
 [1]: ../master/art/google-play-badge.png
 [2]: https://play.google.com/store/apps/details?id=com.gdgebolowa.watchlist
 
-![screen](../master/art/screen.jpg)
+![screen](../master/art/screen.png)
 
 
 ## Libraries
